@@ -1,0 +1,15 @@
+h1{
+	font-size: 28px;
+}
+
+header{
+	height: 80px;
+}
+
+footer{
+	height: 100px;
+}
+
+.container{
+	width: 1000px;
+}
