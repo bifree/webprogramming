@@ -111,6 +111,10 @@ header{
 	background-color: #efa358;
 }
 
+.h1--logo{
+	padding-top: 26px;
+}
+
 footer{
 	height: 100px;
 	background-color: #efa358;
@@ -129,11 +133,13 @@ footer{
 nav{
 	display: inline-block;
 	overflow: hidden;
+	float: right;
 }
 
 li{
 	list-style: none;
 	float: left;
+	padding-bottom: 25px;
 }
 
 a{
