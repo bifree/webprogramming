@@ -127,7 +127,8 @@ footer{
 }
 
 nav{
-	display: inline-block
+	display: inline-block;
+	overflow: hidden;
 }
 
 li{
