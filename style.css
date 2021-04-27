@@ -113,6 +113,7 @@ header{
 
 .h1--logo{
 	padding-top: 26px;
+	display: inline-block;
 }
 
 footer{
@@ -124,22 +125,28 @@ footer{
 .container{
 	width: 1000px;
 	margin: 0 auto;
+	/* display: flex; */
 }
 
 .logo {
 	vertical-align: center;
+	display: inline-block;
+}
+
+.navbar{
+	float: right;
 }
 
 nav{
 	display: inline-block;
 	overflow: hidden;
-	float: right;
 }
 
 li{
 	list-style: none;
 	float: left;
-	padding-bottom: 25px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 a{
@@ -152,6 +159,7 @@ a{
 .h1--bottom{
 	padding-top: 30px;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .p--bottom{
