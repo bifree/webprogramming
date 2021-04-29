@@ -108,12 +108,13 @@ h1{
 header{
 	color: white;
 	height: 80px;
+    display: flex;
 	background-color: #efa358;
 }
 
 .h1--logo{
 	padding-top: 26px;
-	display: inline-block;
+    overflow: hidden;
 }
 
 footer{
@@ -125,34 +126,29 @@ footer{
 .container{
 	width: 1000px;
 	margin: 0 auto;
-	/* display: flex; */
 }
 
 .logo {
 	vertical-align: center;
 	display: inline-block;
-}
-
-.navbar{
-	float: right;
+    width: 300px;
 }
 
 nav{
-	display: inline-block;
-	overflow: hidden;
+    display: inline-block;
 }
 
-li{
-	list-style: none;
-	float: left;
-	padding-bottom: 30px;
-	padding-top: 30px;
+nav > ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 20px 10px;
+    margin: 0;
+    margin-left: auto;
 }
 
 a{
 	color: white;
 	text-decoration: none;
-	float: left;
 	margin-right: 20px;
 }
 
