@@ -134,6 +134,11 @@ footer{
     width: 300px;
 }
 
+.navbar{
+    display: inline-block;
+    /* justify-content: flex-end; */
+}
+
 nav{
     display: inline-block;
 }
