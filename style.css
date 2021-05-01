@@ -107,13 +107,14 @@ h1{
 
 header{
 	color: white;
-	height: 80px;
-    display: flex;
+	/* height: 80px; */
+    /* display: flex; */
 	background-color: #efa358;
+    padding: 10px 0;
 }
 
 .h1--logo{
-	padding-top: 26px;
+	/* padding-top: 26px; */
     overflow: hidden;
 }
 
@@ -129,27 +130,28 @@ footer{
     width: 80%;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+}
+
 .logo {
-	vertical-align: center;
-	display: inline-block;
+	/* vertical-align: center; */
+	/* display: inline-block; */
     width: 300px;
-}
-
-.navbar{
-    display: inline-block;
-    /* justify-content: flex-end; */
-}
-
-nav{
-    display: inline-block;
 }
 
 nav > ul{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     padding: 20px 0 20px 10px;
-    margin: 0;
-    margin-left: auto;
+    /* margin: 0; */
+    /* margin-left: auto; */
 }
 
 a{
@@ -160,14 +162,12 @@ a{
 
 .h1--bottom{
 	padding-top: 30px;
-	text-align: center;
-	margin: 0 auto;
 }
 
 .p--bottom{
 	font-size: 12px;
 	margin-top: 20px;
-	text-align: center;
+	/* text-align: center; */
 }
 
 /******** Main Contents ********/
