@@ -223,3 +223,20 @@ a{
     display: block;
     margin-left: auto;
 }
+
+@media (max-width:1200px){
+
+    .main_content{
+        display: inline-block;
+    }
+    .main_img{
+        margin: 40px auto 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .text_block{
+        width: 100%;
+        margin-right: 0;
+    }
+}
