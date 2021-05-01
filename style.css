@@ -124,8 +124,9 @@ footer{
 }
 
 .container{
-	width: 1000px;
+	/* width: 1000px; */
 	margin: 0 auto;
+    width: 80%;
 }
 
 .logo {
@@ -167,4 +168,57 @@ a{
 	font-size: 12px;
 	margin-top: 20px;
 	text-align: center;
+}
+
+/******** Main Contents ********/
+.top_mv img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.main_title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0;
+    text-transform: capitalize;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text_block {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.text_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.discription {
+    line-height: 1.7;
+    margin: 30px 0;
+    padding-right: 45px;
+}
+
+.link_btn a {
+    display: inline-block;
+    color: white;
+    background: #EFA358;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    margin: 0;
+}
+
+.main_img {
+    width: 50%;
+}
+
+.main_img img {
+    display: block;
+    margin-left: auto;
 }
